@@ -75,9 +75,8 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌯ 𝐒ᴜʙsᴄʀɪʙᴇ 𝐓ᴏ 𝐔ᴘᴅᴀᴛᴇs ⌯", url=config.SUPPORT_CHAT
-            ),
+                text="⌯ 𝐒ᴜʙsᴄʀɪʙᴇ 𝐓ᴏ 𝐔ᴘᴅᴀᴛᴇs ⌯", url=f"https://t.me/Airtel_updates"),
         ],
-        [InlineKeyboardButton(text="[✗]𝐂ʟᴏsᴇ[✗]", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ 𝐂ʟᴏsᴇ ⌯", callback_data="close")],
     ]
     return buttons
